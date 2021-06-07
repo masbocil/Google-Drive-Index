@@ -14,9 +14,9 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
-    "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
+    "siteName": "Drive KoreanAddict.net", // Website name
+    "client_id": "450157972698-jvdjsmeti6jhs9pue5c0ts2cu8sdrhcn.apps.googleusercontent.com", // Client id from Google Cloud Console
+    "client_secret": "Ij0r_3ZBaAua20muHGEskKQt", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
